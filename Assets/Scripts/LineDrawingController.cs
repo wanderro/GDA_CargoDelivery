@@ -58,11 +58,6 @@ public class LineController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        _movingController.StopMoving();
-    }
-
     private void StopDrawing()
     {
         _isLineDrawn = true;
